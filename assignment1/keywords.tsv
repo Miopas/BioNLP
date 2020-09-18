@@ -1,0 +1,14 @@
+C0008031	(pain|burn|rattle|hurt|ache)(\s\w+){0,3}\s(lung|chest|rib)|(lung|chest|rib)(\s\w+){0,3}(pain|burn|rattle|hurt|ache)
+C0013404	(breat|breath(ing|s)?|breathe)
+C0008031	(tight|pressure|congest)(\s\w+){0,3}\s(lung|chest|rib)|(lung|chest|rib)(\s\w+){0,3}(tight|pressure|congest)
+C2363731	throat
+C0030252	pulse
+C0018681	(pressure|pain|ache|hurt)(\s\w+){0,3}\shead|head(\s\w+){0,3}(pressure|pain|ache|hurt)
+C0948596	sinus
+C0015967	temperature
+C0151827	(pain|burn|rattle|hurt|ache)(\s\w+){0,3}\seye
+C0232462	appetite
+C0917801	sleep
+C0741585	(pain|burn|rattle|hurt|ache)(\s\w+){0,3}\s(body|leg|face|back)|(lung|chest|rib)(\s\w+){0,3}(pain|burn|rattle|hurt|ache)
+C0020538	blood\spressure
+C3665347	vision

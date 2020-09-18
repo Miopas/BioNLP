@@ -1,0 +1,108 @@
+a bit delirious	panic	0
+a little bit tired	tired	0
+a little chest tightness	tight chest	0
+a little phlegm	mild phlegm	0
+a little shortness of breath	shortness of breath	0
+a lot hotter	spiked a temp	0
+a stabbing in my lung	pain in my lungs	0
+a tightness in my lung	lungs have been tight	0
+at times diarrhea	diarrhea	0
+back pain	back pain	0
+blurred vision	spots on vision	0
+body ache	body ache	0
+body aches	body aches	0
+brain fog	foggy brain	0
+burning pain	pain	0
+chills	chills	0
+chilly	chills	0
+cold	chills	0
+congestion	congestion	0
+constipation	Other	0
+continuous headache	headache	0
+cough	cough	0
+coughing	coughing	0
+couldn't breathe in my dream	couldn't breathe	0
+crap	Other	0
+didn't have normal bowel movements	Other	0
+dizziness	dizziness	0
+extreme fatigue	extreme fatigue	0
+extremely nervous	extreme fatigue	0
+fatigue	fatigue	0
+fever	fever	0
+fever from 99.5 to 100	fever spiked to 107	0
+fever hovering around 99.9	99.9 fever	0
+fever was 100.2	fever	0
+foggy head	foggy brain	0
+hardly eat for a week and a half	could not taste	0
+hardly pooped	Other	0
+haven't had any shortness of breath	shortness of breath	1
+head dizzy	dizzy	0
+headache	headache	0
+headaches	headaches	0
+hot	very hot	0
+lingering sore throat	sore throat	0
+loss of appetite	loss of appetite	0
+loss of smell	loss of smell	0
+loss of taste	loss of taste	0
+lost about 80% of smell	lost of smell	0
+lost about 80% of taste	lost of taste	0
+lost my sense of smell	lost my sense of smell	0
+lost my sense of taste	lost my sense of taste	0
+lost sense	lost sense of smell	0
+lost sense of smell	lost sense of smell	0
+lost sense of taste	lost sense of taste	0
+lost taste	lost my taste	0
+lung pain	lung pain	0
+mild cough	mild cough	0
+mild heart palpitations	palpitations	0
+mild sore throat	sore throat	0
+muscle aches	muscle aches	0
+muscle aches in my lower back	back pain	0
+my chest feels awful	painful feeling in my chest	0
+my chest feels tighter	tight chest	0
+my chest felt compressed	tightens my chest	0
+my fever got up to 103.2	fever spiked to 107	0
+my fever reached 100.4â°f	fever	0
+my lungs incapable of expanding	tight chest	0
+my lungs swollen	tight chest	0
+my nose was still blocked up	blocked nose	0
+my pulse ox is 97-98	palpitations	0
+my pulse ox is always 98/99	palpitations	0
+my smell not functioning normally	could not smell	0
+nasal congestion	nasal congestion	0
+neck pain	neck pain	0
+never any shortness of breath	shortness of breath	1
+never felt out of breath	out of breath	1
+never had a fever	fever	1
+no cough	coughing	1
+no loss of smell	loss of smell	1
+no loss of taste	loss of taste	1
+occasional body ache	body aches	0
+oxygen levels around 90	cough is next level	0
+pressure	chest pressure	0
+running a very low grade temp	low grade fever	0
+running nose	running nose	0
+runny nose	runny nose	0
+see stars	spots on vision	0
+severe fatigue	fatigue	0
+short of breath	short of breath	0
+shortness of breath	shortness of breath	0
+skunk smell	Other	0
+sneezing	sneezing	0
+sob	crying fits	0
+somewhat fatigued	fatigue	0
+sore throat	sore throat	0
+super nauseous with stomach issues	nauseous	0
+super sad	super tired	0
+taking deep breaths was difficult	breathing was noticeably difficult	0
+taste not functioning normally	could not taste	0
+temperature was hovering around 78-81	body temperature was at 101.7	0
+terrible sinuses	odd aches in sinuses	0
+the loss of my smell	loss of smell	0
+the loss of my taste	loss of taste	0
+tired	tired	0
+took aleve	Other	0
+very little cough	little coughing	0
+weird crawling pain all over	ache all over	0
+weird feeling in the head	pressure in my head	0
+winded	Other	0
