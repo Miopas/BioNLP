@@ -102,8 +102,10 @@ if __name__ == '__main__':
     symptom_dict_file = './COVID-Twitter-Symptom-Lexicon.tsv'
     neg_trig_file = './neg_trigs.txt'
     extra_dict_file = './keywords.tsv'
-    infile = './Assignment1GoldStandardSet.xlsx'
-    outfile = './result.xlsx'
+    #infile = './Assignment1GoldStandardSet.xlsx'
+    #outfile = './result.xlsx'
+    infile = 's10_annotated.xlsx'
+    outfile = 's10_annotated_result.xlsx'
     detector = SymptomDetector(symptom_dict_file, neg_trig_file, extra_dict_file)
 
     df = pd.read_excel(infile)
