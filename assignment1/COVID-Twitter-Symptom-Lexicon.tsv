@@ -27,39 +27,34 @@ C0003126	loss in my ability to smell
 C0003126	loss of sense of smell
 C0003126	loss of smell
 C0003126	loss sense of smell
-C0003126	lost about 80% of smell
 C0003126	lost my ability to smell
 C0003126	lost my sense of smell
 C0003126	lost my smell
 C0003126	lost of smell
 C0003126	lost our sense of smell
-C0003126	lost sense
 C0003126	lost sense of smell
-C0003126	my smell not functioning normally
 C0003126	na sense of smell
 C0003126	no sense of smell
 C0003126	no smell
 C0003126	no smell sense
 C0003126	not able to smell
 C0003126	sense of smell
-C0003126	sense of smell has returned
 C0003126	sense of smell hasn't returned
+C0003126	sense of smell has returned
 C0003126	sense of smell is gone
 C0003126	senses of smell gone
 C0003126	smell goes in and out
 C0003126	smell not fully back
 C0003126	smell senses
-C0003126	the loss of my smell
 C0003862	joint pains
 C0003862	joints pain
 C0003862	shooting pain in my joints
 C0006277	bronchitis
-C0008031	a stabbing in my lung
-C0008031	burn in my chest
 C0008031	burning after coughing
 C0008031	burning in my chest
 C0008031	burning sensation in my back
 C0008031	burning sensation in the centre of my chest
+C0008031	burn in my chest
 C0008031	chest hurt
 C0008031	chest hurts
 C0008031	chest is on fire
@@ -79,13 +74,12 @@ C0008031	lungs burning
 C0008031	lungs feel like they are burning
 C0008031	lungs now burn
 C0008031	lungs still ache
-C0008031	my chest feels awful
+C0008031	painful feeling in my chest
 C0008031	pain in chest
 C0008031	pain in my lungs
+C0008031	pains in my chest
 C0008031	pain when breathing
 C0008031	pain with my lungs
-C0008031	painful feeling in my chest
-C0008031	pains in my chest
 C0008031	rattle in chest
 C0008031	rib cage hurt
 C0008031	ribs hurt
@@ -93,19 +87,18 @@ C0008031	ribs pain
 C0008031	squeezing my lung and it feels like burning
 C0008031	stabbing chest pains
 C0008031	stabbing pain on my chest
-C0010200	a little phlegm
 C0010200	bad cough
 C0010200	bronchitis cough
 C0010200	caughing
 C0010200	cough
-C0010200	cough fits
-C0010200	cough is next level
 C0010200	coughed more
 C0010200	coughed up phelgm
+C0010200	cough fits
 C0010200	coughing
 C0010200	coughing hard
 C0010200	coughing hysterically
 C0010200	coughing up phelgm
+C0010200	cough is next level
 C0010200	coughs
 C0010200	couging
 C0010200	couging intensified
@@ -123,23 +116,20 @@ C0010200	mild dry cough
 C0010200	mild phlegm
 C0010200	minor cough
 C0010200	nasty cough
-C0010200	oxygen levels around 90
 C0010200	persistent cough
 C0010200	persistent coughs
 C0010200	productive cough
 C0010200	slight cough
-C0010200	very little cough
 C0010200	very mild cough
 C0010200	weak cough
 C0010200	wet cough
 C0011175	dehydrated
 C0011175	extremely thirsty
 C0011175	thirsty
-C0011991	at times diarrhea
 C0011991	diarrhea
 C0011991	diarrhoea
-C0011991	gastro problems
 C0011991	gastrointestinal upset
+C0011991	gastro problems
 C0011991	gi issues
 C0011991	gi problems
 C0011991	stomach bug
@@ -148,7 +138,6 @@ C0011991	stomach upset
 C0011991	unbearable stooling
 C0011991	upset stomach
 C0011991	watery diarrhea
-C0012833	brain fog
 C0012833	can't walk
 C0012833	couldn't stand up
 C0012833	delirium
@@ -156,14 +145,11 @@ C0012833	disorientation
 C0012833	dizziness
 C0012833	dizzy
 C0012833	foggy brain
-C0012833	foggy head
 C0012833	hallucinating
-C0012833	head dizzy
 C0012833	light headedness
 C0012833	spell of dizziness
 C0012833	temporary loss of recent memory
 C0012833	vertigo
-C0013404	a little shortness of breath
 C0013404	acute respiratory distress
 C0013404	bad breathing
 C0013404	barely able to breathe
@@ -173,8 +159,8 @@ C0013404	breathing difficulties
 C0013404	breathing got more difficult
 C0013404	breathing has been difficult
 C0013404	breathing is painful
-C0013404	breathing is very hard
 C0013404	breathing issues
+C0013404	breathing is very hard
 C0013404	breathing problems
 C0013404	breathing trouble
 C0013404	breathing was noticeably difficult
@@ -189,19 +175,18 @@ C0013404	can't get a full breath
 C0013404	choking
 C0013404	could no longer breathe on my own
 C0013404	couldn't breathe
-C0013404	couldn't breathe in my dream
 C0013404	couldn't take deep breaths
 C0013404	decreased lung function
-C0013404	diff of breathing
 C0013404	difficult breathing
 C0013404	difficulty breathing
 C0013404	difficulty in breathing
 C0013404	difficulty of breathing
+C0013404	diff of breathing
 C0013404	gasping for air
 C0013404	get breathless
 C0013404	half breaths
-C0013404	hard to breathe
 C0013404	harder to breathe
+C0013404	hard to breathe
 C0013404	head hurts
 C0013404	hurts to take a deep breath
 C0013404	i can't breathe
@@ -212,20 +197,19 @@ C0013404	lungs are still weak
 C0013404	lungs are weakened
 C0013404	mild breathlessness
 C0013404	out of breath
-C0013404	resp problems
 C0013404	respiratory distress
 C0013404	respiratory symptoms
 C0013404	respiratory symptoms were minimal
+C0013404	resp problems
 C0013404	shallow breathing
 C0013404	short breaths
-C0013404	short of breat
-C0013404	short of breath
 C0013404	shortness of breath
 C0013404	shortness of breathe
+C0013404	short of breat
+C0013404	short of breath
 C0013404	slight shortness of breath
 C0013404	struggling to breathe
 C0013404	struggling with breathing
-C0013404	taking deep breaths was difficult
 C0013404	trouble breathing deep
 C0013456	ear pain
 C0013456	ears hurt
@@ -234,7 +218,6 @@ C0013456	pressure on the left ear
 C0013456	pulsing sounds in ear
 C0015230	rash all over my body
 C0015230	rash in elbow
-C0015672	a little bit tired
 C0015672	can't walk alone
 C0015672	couldn't lift my head
 C0015672	don't have energy
@@ -246,11 +229,10 @@ C0015672	exhaustion
 C0015672	exhaustion has fully hit me
 C0015672	extreme fatigue
 C0015672	extremely fatigued
-C0015672	extremely nervous
 C0015672	fatigue
 C0015672	fatigued
-C0015672	feel weak
 C0015672	feeling weak
+C0015672	feel weak
 C0015672	generalized weakness
 C0015672	horrible fatigue
 C0015672	knocked out
@@ -258,9 +240,6 @@ C0015672	loss of energy
 C0015672	no energy
 C0015672	pretty weak
 C0015672	random, sudden fatigue
-C0015672	severe fatigue
-C0015672	somewhat fatigued
-C0015672	super sad
 C0015672	super tired
 C0015672	tired
 C0015672	tiredness
@@ -275,12 +254,11 @@ C0015967	101 degree fever
 C0015967	102 fever
 C0015967	103+ fevers
 C0015967	104 fever
-C0015967	105 fever
 C0015967	105.4 fever
 C0015967	105.6 fever
 C0015967	105.9 fever
+C0015967	105 fever
 C0015967	99.9 fever
-C0015967	a lot hotter
 C0015967	body temperature now at 103.6
 C0015967	body temperature up
 C0015967	body temperature was at 101.7
@@ -289,20 +267,16 @@ C0015967	can't shake the temp
 C0015967	clingy fever
 C0015967	consistent fever
 C0015967	fever
-C0015967	fever from 99.5 to 100
-C0015967	fever hovering around 99.9
+C0015967	feverish
 C0015967	fever is still at 102.3
 C0015967	fever of 101
+C0015967	fevers
 C0015967	fever spiked to 107
 C0015967	fever upto 103.3
-C0015967	fever was 100.2
-C0015967	feverish
-C0015967	fevers
 C0015967	head fever
 C0015967	high fever
-C0015967	high temperature
 C0015967	high-grade fever
-C0015967	hot
+C0015967	high temperature
 C0015967	i'm 38.7
 C0015967	increase in temp
 C0015967	increase in temperature
@@ -313,11 +287,8 @@ C0015967	low temperatures
 C0015967	made me breathe like fire
 C0015967	mild fever
 C0015967	mildly pyrexic
-C0015967	my fever got up to 103.2
-C0015967	my fever reached 100.4â°f
 C0015967	my temperature twice a day
 C0015967	pyrexia
-C0015967	running a very low grade temp
 C0015967	slight fever
 C0015967	spiked a temp
 C0015967	super-high fever
@@ -327,10 +298,6 @@ C0015967	temp at 36
 C0015967	temp at 36-37
 C0015967	temp at 38
 C0015967	temp at 40deg
-C0015967	temp is miserable
-C0015967	temp of over 102
-C0015967	temp spikes to 102
-C0015967	temp was 102.8 today
 C0015967	temperature
 C0015967	temperature dropped to 36
 C0015967	temperature has elevated
@@ -342,28 +309,30 @@ C0015967	temperature soared
 C0015967	temperature started going up
 C0015967	temperature thermometers
 C0015967	temperature was a little higher
-C0015967	temperature was hovering around 78-81
 C0015967	temperature will randomly go up
+C0015967	temp is miserable
+C0015967	temp of over 102
+C0015967	temp spikes to 102
+C0015967	temp was 102.8 today
 C0015967	thought i had the flu
 C0015967	unrelenting fever
 C0015967	very hot
 C0018681	bad forehead
 C0018681	cluster headaches
 C0018681	congested head
-C0018681	continuous headache
 C0018681	crushing headache
 C0018681	feels like what i imagine neuralgia to feel like
 C0018681	hammering the top of my skull
 C0018681	head ache
+C0018681	headache
+C0018681	headaches
+C0018681	headcahe
 C0018681	head cold
 C0018681	head hurt
 C0018681	head is gonna explode
 C0018681	head is killing me
 C0018681	head is pounding
 C0018681	head was throbbing
-C0018681	headache
-C0018681	headaches
-C0018681	headcahe
 C0018681	massive headache
 C0018681	mild headache
 C0018681	pain in back of head
@@ -374,7 +343,6 @@ C0018681	slight head congestion
 C0018681	sore head
 C0018681	throbbing head
 C0018681	throbbing headache
-C0018681	weird feeling in the head
 C0019079	spitting up blood
 C0020458	clammy feet nd hands
 C0020458	cold sweats
@@ -407,11 +375,7 @@ C0027497	nasuea
 C0027497	nausea
 C0027497	nauseous
 C0027497	nauseousness
-C0027497	super nauseous with stomach issues
 C0030252	heart that's  bumping way too fast
-C0030252	mild heart palpitations
-C0030252	my pulse ox is 97-98
-C0030252	my pulse ox is always 98/99
 C0030252	my pulse was 112 bpm
 C0030252	palpitations
 C0030252	tachycardia
@@ -427,8 +391,8 @@ C0041912	respiratory infection
 C0041912	upper respiratory infection
 C0042963	puked
 C0042963	threw up
-C0042963	throw up
 C0042963	throwing up
+C0042963	throw up
 C0042963	vomit
 C0042963	vomited
 C0042963	vomiting
@@ -440,8 +404,6 @@ C0043144	wheezy
 C0085593	body chills
 C0085593	body shaking
 C0085593	chills
-C0085593	chilly
-C0085593	cold
 C0085593	extreme chills
 C0085593	horrible chills
 C0085593	shakes
@@ -455,8 +417,8 @@ C0149931	epic migraines
 C0149931	migraine
 C0149931	migraines
 C0151827	burning eyes
-C0151827	eye sickness
 C0151827	eyes hurt
+C0151827	eye sickness
 C0151827	eyes in pain
 C0151827	eyes physically hurt
 C0151827	eyes were excruciatingly sensitive and sore
@@ -473,11 +435,11 @@ C0231528	muscle ache
 C0231528	muscle aches
 C0231528	muscle hurt
 C0231528	muscle pain
+C0231528	muscles ache
+C0231528	muscles in my neck began to ache
 C0231528	muscle soreness
 C0231528	muscle spasm
 C0231528	muscle spasms
-C0231528	muscles ache
-C0231528	muscles in my neck began to ache
 C0231528	myalgia
 C0231528	myalgias
 C0231528	severe myalgia
@@ -505,8 +467,6 @@ C0232462	poor appetite
 C0232462	reduced appetite
 C0232462	zero appetite
 C0235567	thicker saliva
-C0235710	a little chest tightness
-C0235710	a tightness in my lung
 C0235710	bricks on my chest
 C0235710	bus is parked on me
 C0235710	chest and lungs feel extremely tight
@@ -527,18 +487,13 @@ C0235710	elephant on my chest
 C0235710	elephant sitting on my chest
 C0235710	heaviness in my lungs
 C0235710	lung pressure
-C0235710	lung tightness
 C0235710	lungs are inflammed
 C0235710	lungs are still inflammed
 C0235710	lungs getting heavier
 C0235710	lungs have been tight
 C0235710	lungs were closed halfway down
+C0235710	lung tightness
 C0235710	mild chest congestion
-C0235710	my chest feels tighter
-C0235710	my chest felt compressed
-C0235710	my lungs incapable of expanding
-C0235710	my lungs swollen
-C0235710	pressure
 C0235710	pressure in my chest
 C0235710	pressure on my chest
 C0235710	sitting on my chest
@@ -566,10 +521,10 @@ C0741585	aching
 C0741585	achy
 C0741585	agony of the body
 C0741585	back absolutely fucked
+C0741585	backache
 C0741585	back aches
 C0741585	back pain
 C0741585	back was hurting
-C0741585	backache
 C0741585	body ache
 C0741585	body aches
 C0741585	body being sorta achy
@@ -578,7 +533,6 @@ C0741585	body pains
 C0741585	body still aches
 C0741585	bone-deep ache
 C0741585	breathing hurts
-C0741585	burning pain
 C0741585	cramp
 C0741585	cramping
 C0741585	cramps
@@ -587,22 +541,20 @@ C0741585	face pain
 C0741585	feeling achey
 C0741585	feeling skin to hurt
 C0741585	horrible aches
+C0741585	hurts to be awake
 C0741585	hurt to look around
 C0741585	hurt to move
-C0741585	hurts to be awake
 C0741585	jaw (lymph nodes) super tender to touch
 C0741585	left arm hurting
 C0741585	left side of body is numb
 C0741585	leg cramp
 C0741585	leg cramps
 C0741585	leg pain
-C0741585	muscle aches in my lower back
 C0741585	neck and back ache
 C0741585	neck hurt
 C0741585	neck kept hurting
 C0741585	neck pain
 C0741585	neuropathic type pain
-C0741585	occasional body ache
 C0741585	pain
 C0741585	pain along my dermatomes
 C0741585	pain i can feel
@@ -615,11 +567,10 @@ C0741585	sore
 C0741585	spleen sometimes aches
 C0741585	teeth were v sore
 C0741585	unbearable back pain
-C0741585	weird crawling pain all over
+C0741585	whole-body ache
 C0741585	whole body has been numb
 C0741585	whole body is aching
 C0741585	whole body is sore
-C0741585	whole-body ache
 C0917801	can never stay asleep
 C0917801	can't sleep
 C0917801	difficulty sleeping
@@ -634,10 +585,8 @@ C0948596	odd aches in sinuses
 C0948596	sinus congestion
 C0948596	sinus infection
 C0948596	sinus pressure
-C0948596	terrible sinuses
 C1260880	blocked nose
 C1260880	dry nasal cavity
-C1260880	my nose was still blocked up
 C1260880	nasal cavity
 C1260880	nasal congestion
 C1260880	nose congestion
@@ -647,7 +596,6 @@ C1260880	runny nose
 C1260880	slightly runny nose
 C1260880	sniffles
 C1260880	stuffy nose
-C1832070	a bit delirious
 C1832070	anxiety
 C1832070	anxiety attacks
 C1832070	anxious
@@ -657,7 +605,6 @@ C1832070	depression
 C1832070	panic
 C1832070	panic attack
 C1832070	panic attacks
-C1832070	sob
 C1832070	stressed
 C1832070	stressed out
 C1832070	worry
@@ -665,8 +612,6 @@ C2363731	dry throat
 C2363731	flu-like voice
 C2363731	irritated throat
 C2363731	itchy throat
-C2363731	lingering sore throat
-C2363731	mild sore throat
 C2363731	pain in my throat
 C2363731	scratchy throat
 C2363731	sore throat
@@ -691,15 +636,14 @@ C2363731	voice sounds flu-like
 C2364111	ageusia
 C2364111	all of my food i've tried eating this week tasted the same
 C2364111	can't taste
-C2364111	can't taste anything
 C2364111	cant taste
+C2364111	can't taste anything
 C2364111	changed taste
 C2364111	complete loss of taste
 C2364111	could not taste
 C2364111	couldn't taste
 C2364111	couldn't taste anything
 C2364111	depletion in my ability to taste
-C2364111	hardly eat for a week and a half
 C2364111	haven't tasted
 C2364111	lack of taste
 C2364111	little taste
@@ -708,7 +652,6 @@ C2364111	losing my sense of taste
 C2364111	loss in my ability to taste
 C2364111	loss of sense of taste
 C2364111	loss of taste
-C2364111	lost about 80% of taste
 C2364111	lost my ability to taste
 C2364111	lost my sense of taste
 C2364111	lost my sesmse of taste
@@ -716,7 +659,6 @@ C2364111	lost my taste
 C2364111	lost of taste
 C2364111	lost our sense of taste
 C2364111	lost sense of taste
-C2364111	lost taste
 C2364111	lost the ability to taste food
 C2364111	no sense of taste
 C2364111	no taste
@@ -726,12 +668,8 @@ C2364111	sense of taste
 C2364111	sense of taste hasn't returned
 C2364111	senses of taste gone
 C2364111	taste anything
-C2364111	taste not fully back
-C2364111	taste not functioning normally
-C2364111	taste senses
 C2364111	tasteless
-C2364111	the loss of my taste
+C2364111	taste not fully back
+C2364111	taste senses
 C2364111	whatever i drink or eat is tasteless
-C3665347	blurred vision
-C3665347	see stars
 C3665347	spots on vision

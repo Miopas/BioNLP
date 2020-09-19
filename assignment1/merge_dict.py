@@ -13,8 +13,8 @@ with open(new_file, 'r') as fr:
         new_term, std_name, neg = line.strip().split('\t')
         if std_name == 'Other':
             symptom_dict[new_term] = 'C0000000'
-        elif neg == '0':
-            symptom_dict[new_term] = symptom_dict[std_name]
+        #elif neg == '0':
+        #    symptom_dict[new_term] = symptom_dict[std_name]
 
 for k, v in symptom_dict.items():
     print('{}\t{}'.format(v, k))

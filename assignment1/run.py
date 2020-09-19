@@ -5,7 +5,7 @@ from fuzzywuzzy import fuzz
 import pandas as pd
 
 class SymptomDetector:
-    def __init__(self, symptom_dict_file, neg_trig_file):
+    def __init__(self, symptom_dict_file, neg_trig_file, extra_dict_file):
         self.threshold = 0.9
         self.window_size = 3
         self.symptom_dict = {}
@@ -21,35 +21,51 @@ class SymptomDetector:
                 neg_trigger_list.append(line.strip())
         self.neg_trig_pattern_str = '|'.join(['({})'.format(t.lower()) for t in neg_trigger_list])
 
+        self.extra_dict = []
+        with open(extra_dict_file, 'r') as fr:
+            for line in fr:
+                cid, ptn = line.strip().split('\t')
+                self.extra_dict.append((re.compile(ptn), cid))
+
+    def detect_neg(self, sent, matched_sym):
+        exact_neg_pattern = re.compile(r'(^|\s)({})(\s\w+\s\w+)?\s{}'.format(self.neg_trig_pattern_str, matched_sym))
+        if exact_neg_pattern.search(sent) != None:
+            return 1
+        else:
+            return 0
+
     def process_doc(self, text):
         text = text.lower()
         sentences = sent_tokenize(text)
         output = []
 
         for sent in sentences:
-
             # find symptoms
-            symptoms = self.find_symptoms(sent)
-            if len(symptoms) == 0:
-                continue
-
-            # detect negation
+            symptoms, fuzzy_flag = self.find_symptoms(sent)
             found_cid = {}
-            for sym, matched_sym in symptoms:
-                cid = self.symptom_dict[sym]
-                if cid in found_cid:
-                    continue
-                found_cid[cid] = 0
+            if len(symptoms) == 0:
+                for ptn, cid in self.extra_dict:
+                    matched = ptn.findall(sent)
+                    if len(matched) > 0:
+                        matched.sort(key=len)
+                        matched_sym = matched[0]
+                        print('EXTRA:{}\t{}'.format(sent, matched_sym))
+                        if self.detect_neg(sent, matched_sym):
+                            output.append((cid, '1'))
+                        else:
+                            output.append((cid, '0'))
+            else:
+                for sym, matched_sym in symptoms:
+                    cid = self.symptom_dict[sym]
+                    if cid in found_cid:
+                        continue
+                    found_cid[cid] = 0
 
-                exact_neg_pattern = re.compile(r'(^|\s)({})(\s\w+)?\s{}'.format(self.neg_trig_pattern_str, matched_sym))
-                if exact_neg_pattern.search(sent) != None:
-                    #print('{}\t{}\t{}\t{}-neg'.format(sent, sym, matched_sym, cid))
-                    print('{}\t{}-neg'.format(sent, cid))
-                    output.append((cid, '1'))
-                else:
-                    #print('{}\t{}\t{}\t{}'.format(sent, sym, matched_sym, cid))
-                    print('{}\t{}'.format(sent, cid))
-                    output.append((cid, '0'))
+                    print('FUZZY{}:{}\t{}'.format(fuzzy_flag, sent, matched_sym))
+                    if self.detect_neg(sent, matched_sym):
+                        output.append((cid, '1'))
+                    else:
+                        output.append((cid, '0'))
         return output
 
 
@@ -68,23 +84,27 @@ class SymptomDetector:
 
     def find_symptoms(self, sent):
         res = []
+        fuzzy_flag = 0
         for k, v in self.symptom_dict.items():
             matched = ''
             if k in sent: # exact match
                 res.append((k, k))
             else:
                 term, score = self.fuzzy_match(k, sent)
+                score = 0
                 if score >= self.threshold:
                     res.append((k, term))
-        return res
+                    fuzzy_flag = 1
+        return res, fuzzy_flag
 
 
 if __name__ == '__main__':
-    symptom_dict_file = './new_dict.tsv'
+    symptom_dict_file = './COVID-Twitter-Symptom-Lexicon.tsv'
     neg_trig_file = './neg_trigs.txt'
+    extra_dict_file = './keywords.tsv'
     infile = './Assignment1GoldStandardSet.xlsx'
     outfile = './result.xlsx'
-    detector = SymptomDetector(symptom_dict_file, neg_trig_file)
+    detector = SymptomDetector(symptom_dict_file, neg_trig_file, extra_dict_file)
 
     df = pd.read_excel(infile)
     new_df = {'ID':[], 'Symptom CUIs':[], 'Negation Flag':[]}
