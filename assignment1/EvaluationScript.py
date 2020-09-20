@@ -34,8 +34,12 @@ def load_labels(f_path):
                 labeled_dict[id_].append(cui + '-' + str(neg_flag))
     return labeled_dict
 
-gold_standard_dict = load_labels('./Assignment1GoldStandardSet.xlsx')
-submission_dict = load_labels('./result.xlsx')
+infile = './Assignment1GoldStandardSet.xlsx'
+outfile = './result.xlsx'
+#infile = 's10_annotated.xlsx'
+#outfile = 's10_annotated_result.xlsx'
+gold_standard_dict = load_labels(infile)
+submission_dict = load_labels(outfile)
 
 tp = 0
 tn = 0
@@ -48,16 +52,19 @@ for k,v in gold_standard_dict.items():
                tp+=1
             else:
                 fn+=1
+                print('{}\t{}\tfn'.format(k, c))
         except KeyError:#if the key is not found in the submission file, each is considered
                         #to be a false negative..
             fn+=1
+            print('{}\t{}\tfn'.format(k, c))
     for c2 in submission_dict[k]:
         if not c2 in gold_standard_dict[k]:
             fp+=1
+            print('{}\t{}\tfp'.format(k, c2))
 print('True Positives:',tp, 'False Positives: ', fp, 'False Negatives:', fn)
 recall = tp/(tp+fn)
 precision = tp/(tp+fp)
 f1 = (2*recall*precision)/(recall+precision)
 #print('Recall: ',recall,'\nPrecision:',precision,'\nF1-Score:',f1)
-print('{}\t{}\t{}'.format(recall, precision, f1))
+print('{}\t{}\t{}'.format(precision, recall, f1))
 
